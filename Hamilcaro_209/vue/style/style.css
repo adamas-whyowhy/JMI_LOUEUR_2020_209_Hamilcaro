@@ -1,0 +1,107 @@
+* {
+	border: 0;
+	margin: 0;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image:url("../images/style/fond.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+.navbar {
+	background: linear-gradient(to right, #add100, #7b920a);
+	border-bottom: 1px solid white;
+}
+
+.navbar-brand {
+	color: white;
+}
+
+.navbar-brand:hover {
+	color: #7b920a;
+}
+
+.nav-link{
+	color: white;
+}
+
+.nav-link:hover {
+	color:  #475408;
+	letter-spacing: 1pt;
+}
+
+#navbar-right {
+	align-items: flex-end;
+}
+
+header {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #add100;
+	text-align: center;
+	border-bottom: 1px solid white;
+	font-family:'Cambria Math';
+}
+
+header h1 {
+	color: white;
+	text-shadow: 1px -1px 1px #0045d1;
+}
+
+header h6 {
+	color: white;
+	text-shadow: 1px -1px 1px #00d18d;
+	letter-spacing: 1pt;
+}
+
+#vehicules {
+	background: grey;
+	border: 2px solid #00d18d;
+	border-radius: 2.5%;
+	background-image:url("../images/style/fond-transparent.png");
+}
+
+.titre {
+	font-family:'Cambria Math';
+	border-bottom: 2px solid white;
+	padding: 30px 0px 5px 30px;
+	margin-bottom: 2px;
+}
+
+.titre h3 {
+	color: white;
+	text-shadow: 1px -1px 1px #0045d1;
+	padding-left: 60px;
+	background-color: #add100;
+}
+
+.titre h6 {
+	color: white;
+	text-shadow: 1px -1px 1px #00d18d;
+	letter-spacing: 0.5pt;
+	opacity: 90%;
+}
+
+.contenu {
+	padding: 5px 0px 5px 30px;
+}
+
+.card {
+	min-width: 250px;
+	max-width: 300px;
+}
+
+.card-header {
+	color: black;
+	font-family:'Cambria Math';
+	background-color: #00d18d;
+}
